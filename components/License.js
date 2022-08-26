@@ -1,5 +1,5 @@
 import { QRCodeSVG } from "qrcode.react";
-import sha256 from "crypto-js/MD5";
+import sha256 from "crypto-js/sha256";
 import { AiOutlineMedicineBox } from "react-icons/ai";
 import { useRouter } from "next/router";
 
